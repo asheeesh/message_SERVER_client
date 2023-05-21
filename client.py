@@ -1,6 +1,7 @@
 from pickle import TRUE
 import socket
 from uu import decode
+# name has to be server ip address
 name = socket.gethostname()
 port =4444
 try:
